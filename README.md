@@ -42,3 +42,6 @@ Store
 - permite la lectura del estado (getState())
 - permite crear un nuevo estado (dispatch(action))
 - permite notificar cambios de estado vía (subscribe())
+
+
+./node_modules/.bin/ts-node app.ts
