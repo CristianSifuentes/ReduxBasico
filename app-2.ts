@@ -1,4 +1,10 @@
-import { incrementadorAction, dividirAction, decrementadorAction, multiplicarAction, resetAction } from './contador/contador.actions';
+import { 
+    incrementadorAction, 
+    dividirAction, 
+    decrementadorAction, 
+    multiplicarAction,
+     resetAction 
+    } from './contador/contador.actions';
 import { Action } from './ngrx-fake/ngrx';
 
 function reducer(state = 10, action: Action){
